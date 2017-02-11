@@ -1,3 +1,29 @@
 html {
-  color: red;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F8DC3D;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(46, 46, 44);
+  font-family: Mada, sans-serif;
+  font-size: 6rem;
 }
